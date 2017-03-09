@@ -1,0 +1,37 @@
+var a=[17,24,4,26,19,30,2,66,40];
+var i=0;
+var min;
+var mn;
+function isOdd(i)
+ {
+ a[i]%2!==0;
+ return true;
+ }
+While (i<a.length);
+{
+if (isOdd(i))
+  {
+    if(a[i]<min)
+    {
+    min=a[i];
+    console.log(min);
+    }
+    else
+    {
+    console.log(a);
+    } 
+  }
+ else
+   {
+    if(a[i]<mn)
+    {
+      mn=a[i];
+    console.log(mn);
+    }
+    else
+    {
+    console.log(a);
+    }
+   }
+  i=i+1 ;
+ }

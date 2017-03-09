@@ -1,0 +1,37 @@
+script;
+{
+  var A,B,C,D,E;
+  var color_count =0 ;
+ alert("Enter your number");
+ if(A%2 ===0)
+ {
+  console.log(BLUE);
+ } 
+  count=count +1;
+ if(B%2===0 && C>5)
+ {
+   console.log(GREEN);
+ }
+  count=count +1;
+ if ((B%2===0 && C<5) && (E%2!==0))
+ {
+   console.log(YELLOW);
+ }
+  count=count +1;
+ if((A%2===0 && B%2===0) && (C<0))
+ {
+   console.log(ORANGE);
+ }
+  count=count +1;
+ if((C+D+E)>(A+C)) 
+ {
+   console.log(PURPLE)
+ }
+  count=count +1;
+ if(count=2 && C%2 !==0 && C<B) 
+ {
+ console.log(red);
+ }
+}
+
+script;

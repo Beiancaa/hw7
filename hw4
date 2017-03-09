@@ -1,0 +1,37 @@
+{
+var a[17,24,4,26,19,30,2,66,40];
+var i=0;
+var min;
+var mn;
+While(i<a.length)
+{
+ if(a[i]%2 !== 0)
+ {
+  if (a[i]<min)
+  { 
+  min=a[i];
+  print min;
+  }
+  else
+   {
+   print i;
+   break;
+   }
+ };
+ else
+ if(a[i]%2 == 0)
+ {
+  if (a[i]<mn)
+  { 
+  mn=a[i];
+  print mn;
+  }
+  else
+   {
+   print i;
+   break;
+   }
+ };
+ i=i+1;
+};
+};
